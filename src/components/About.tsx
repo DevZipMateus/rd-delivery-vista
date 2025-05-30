@@ -16,9 +16,9 @@ export const About = () => {
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Truck className="w-8 h-8 text-primary" />
+            <div className="bg-white rounded-lg p-6 shadow-xl hover:shadow-2xl transition-shadow duration-300 border-t-4 border-orange-500">
+              <div className="w-16 h-16 bg-gradient-to-br from-orange-400 to-red-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Truck className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-semibold text-accent mb-3">Delivery Rápido</h3>
               <p className="text-gray-600">
@@ -26,9 +26,9 @@ export const About = () => {
               </p>
             </div>
 
-            <div className="bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Clock className="w-8 h-8 text-primary" />
+            <div className="bg-white rounded-lg p-6 shadow-xl hover:shadow-2xl transition-shadow duration-300 border-t-4 border-orange-500">
+              <div className="w-16 h-16 bg-gradient-to-br from-orange-400 to-red-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Clock className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-semibold text-accent mb-3">Horário Amplo</h3>
               <p className="text-gray-600">
@@ -36,9 +36,9 @@ export const About = () => {
               </p>
             </div>
 
-            <div className="bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Star className="w-8 h-8 text-primary" />
+            <div className="bg-white rounded-lg p-6 shadow-xl hover:shadow-2xl transition-shadow duration-300 border-t-4 border-orange-500">
+              <div className="w-16 h-16 bg-gradient-to-br from-orange-400 to-red-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Star className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-semibold text-accent mb-3">Qualidade</h3>
               <p className="text-gray-600">
