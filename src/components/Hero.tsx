@@ -1,21 +1,14 @@
-
 import { Button } from "@/components/ui/button";
 import { Phone, Clock, MapPin } from "lucide-react";
-
 export const Hero = () => {
   const handleWhatsAppClick = () => {
     window.open("https://wa.me/5511980852771", "_blank");
   };
-
-  return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background image */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage: 'url(https://images.unsplash.com/photo-1561758033-d89a9ad46330?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)'
-        }}
-      />
+      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
+      backgroundImage: 'url(https://images.unsplash.com/photo-1561758033-d89a9ad46330?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)'
+    }} />
       
       {/* Dark overlay for better text readability */}
       <div className="absolute inset-0 bg-black/60"></div>
@@ -35,11 +28,7 @@ export const Hero = () => {
           {/* Logo */}
           <div className="mb-8 flex justify-center">
             <div className="bg-white/20 backdrop-blur-sm rounded-full p-4 shadow-2xl">
-              <img 
-                src="/lovable-uploads/01bf32bc-b727-4d1f-b47f-5f7ab16376f6.png" 
-                alt="RD Bebidas e Salgados Logo" 
-                className="w-28 h-28 md:w-36 md:h-36 object-contain animate-bounce-in"
-              />
+              <img alt="RD Bebidas e Salgados Logo" className="w-28 h-28 md:w-36 md:h-36 object-contain animate-bounce-in" src="/lovable-uploads/51c4ccba-8015-4db8-8f0c-2817ceec737e.png" />
             </div>
           </div>
 
@@ -84,10 +73,7 @@ export const Hero = () => {
 
           {/* CTA Button */}
           <div className="space-y-4">
-            <Button 
-              onClick={handleWhatsAppClick}
-              className="bg-gradient-to-r from-yellow-400 to-orange-400 hover:from-yellow-300 hover:to-orange-300 text-orange-900 px-8 py-6 text-lg md:text-xl font-bold rounded-full shadow-2xl transform hover:scale-105 transition-all duration-300 border-2 border-yellow-300 hover:shadow-yellow-400/50"
-            >
+            <Button onClick={handleWhatsAppClick} className="bg-gradient-to-r from-yellow-400 to-orange-400 hover:from-yellow-300 hover:to-orange-300 text-orange-900 px-8 py-6 text-lg md:text-xl font-bold rounded-full shadow-2xl transform hover:scale-105 transition-all duration-300 border-2 border-yellow-300 hover:shadow-yellow-400/50">
               🛵 Peça Agora pelo WhatsApp
             </Button>
             <p className="text-white/80 text-sm">
@@ -96,6 +82,5 @@ export const Hero = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
